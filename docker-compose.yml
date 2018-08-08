@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  soulseekjs:
+
+    build: .
+    container_name: soulseekjs
+    restart: always
+    privileged: true
+
+    ports:
+      - 9911:9000
+
+    volumes:
+      - ./supervisor.conf:/etc/supervisor.conf:ro
