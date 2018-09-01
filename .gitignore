@@ -3,3 +3,6 @@ dist
 .tmp
 .sass-cache
 app/components
+.DS_Store
+Thumbs.db
+thumbs.db

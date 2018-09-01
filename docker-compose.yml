@@ -13,3 +13,5 @@ services:
 
     volumes:
       - ./supervisor.conf:/etc/supervisor.conf:ro
+      - ./soulseekjs:/opt/soulseekjs
+
